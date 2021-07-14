@@ -15,40 +15,22 @@ body{
     height: 600px;
 }
 .banner-info{
-    color: white;
-    
-    
+    color: white;  
 }
-.goal-post{
-    display: none;
-    position: relative;
-    
-    transition: transform 1s ease-in;
-    
-}
-/* #goal-div{
-    
-    display: flex;
-    
-} */
-#banner-para{
-      
+#banner-para{ 
     font-size: 51px;
     width: 485px;
     height:230px;
     margin-top: 121px;
     font-weight: 700;
 }
-
-
 .banner-pic img{
     width: 556.01;
     height: 438px;
     margin: 62px 0 91px 95px;
     
 }
-#banner-btn{
-    
+#banner-btn{ 
     margin-top: 27px;
     Width: 168px;
     Height: 44px;
@@ -61,12 +43,15 @@ body{
     font-size: large;
     font-weight: 500px;
 }
+.goal-post{
+    display: none;
+    position: relative; 
+    transition: transform 1s ease-in;  
+}
 
 #banner:hover .goal-post{
     display: block;
     transform: translate(0, -653px);
-    
-
 }
 #banner:hover #banner-p{
     display: none;
@@ -91,8 +76,7 @@ body{
     margin-right: 30px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     width: 330px;
-    margin-bottom: 33px;
-    
+    margin-bottom: 33px;   
 }
 .players img{
     padding: 15px;
@@ -105,7 +89,6 @@ body{
 .details h2{
     font-weight: 700;
     margin: 0px 0 10px 0px;
-
 }
 .player-description{
     font-size: 16px;
@@ -146,6 +129,7 @@ body{
     color: white;
 }
 
+
 /* special feature section  */
 .special-feature{
     background-image: url(images/copa-background.png);
@@ -158,7 +142,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 900px;
-      
+     
 }
 .feature-header{
     display: flex;
@@ -189,7 +173,6 @@ body{
     margin: 20px 20px 0px 0;
     box-shadow: 5px 10px 100px rgb(1 11 17);
 }
-
 .feature img{
     width: 330px;
     height:400px;
@@ -221,12 +204,6 @@ body{
     color: #6C6C6C;
     font-weight: 400;
 }
-.highlight-img img{
-    margin-top: 165px;
-    margin-bottom: 158px;
-    width: 567px;
-    height: 427px;
-}
 #highlight-btn{
     Width: 173px;
     Height: 44px;
@@ -234,6 +211,13 @@ body{
     color: white;
     background-color: #E02C6D
 }
+.highlight-img img{
+    margin-top: 165px;
+    margin-bottom: 158px;
+    width: 567px;
+    height: 427px;
+}
+
 
 
 /* footer section  */
