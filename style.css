@@ -257,7 +257,7 @@ footer p{
         display: flex;
         flex-direction: column;
         height: 900px;
-        width: 900px;
+        width: 941px;
 
     }
     .banner-info{
@@ -276,7 +276,7 @@ footer p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 70px 0 70px
-    }
+        }
 
     .newses{
         display: flex;
@@ -290,7 +290,7 @@ footer p{
     }
     .special-feature{
         background-image: url(images/copa-background.png);
-        width: 900px;
+        width: 940px;
     }
     .features{
         padding: 0 0px 0 30px;
