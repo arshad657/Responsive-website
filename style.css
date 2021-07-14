@@ -12,10 +12,18 @@ body{
     margin-top: 0px;
     background-color: #2D25A0;
     justify-content: center;
+    height: 600px;
 }
 .banner-info{
     color: white;
     
+    
+}
+.goal-post{
+    display: none;
+    position: relative;
+    
+    transition: transform 1s ease-in;
     
 }
 /* #goal-div{
@@ -54,25 +62,17 @@ body{
     font-weight: 500px;
 }
 
-/* banner hover section  */
-/* #banner:hover #banner-para{
-    
-    visibility: hidden;
-    
-}
-#banner:hover #goal-post{
+#banner:hover .goal-post{
     display: block;
-    margin-right: 1080px;
-    transform: translateX(581px);
-    transition: transform 1s ease-in;
-    height: 10px;
+    transform: translate(0, -653px);
     
-} */
 
-/* #banner:hover .banner-pic{
-    transform: scale(1.5);
-    
-} */
+}
+#banner:hover #banner-p{
+    display: none;
+}
+
+
 
 
 /* player section  */
@@ -264,4 +264,128 @@ footer p{
     margin-bottom: 63px;
     font-weight: 400;
 }
+
+
+/* media queries  */
+
+@media (min-width:689px) and (max-width: 992px){
+    #banner{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 900px;
+
+    }
+    .banner-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #banner-btn{
+        margin-bottom: 50px;
+        margin-top: -7px;
+    }
+    #player-section{
+        margin-left: 129px;
+    }
+    .players{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 70px 0 70px
+    }
+
+    .newses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .news{
+        margin-top: 30px;
+    }
+    .special-feature{
+        background-image: url(images/copa-background.png);
+        width: 900px;
+    }
+    .features{
+        padding: 0 0px 0 30px;
+        
+    }
+    .feature{
+        
+        width: 230px;
+    }
+    #highlight-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    footer{
+        padding-bottom: 100px;
+    }
+}
+    
+@media only screen and (max-width:688px) {
+    #banner{
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        width: 900px;
+
+    }
+    .banner-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #banner-btn{
+        margin-bottom: 50px;
+        margin-top: -7px;
+    }
+    #player-section{
+        
+}
+    .players,.newses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 250px;
+
+
+    }
+    
+    .sec-title h1{
+        
+        margin-left: 150px;
+    }
+    .special-feature{
+        background-image: url(images/copa-background.png);
+        width: 850px;
+        height: 1900px;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;  
+    }
+    #highlight-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 350px;
+
+    }
+    footer{
+        margin-left: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
+    
 
